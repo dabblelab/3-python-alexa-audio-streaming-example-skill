@@ -1,0 +1,28 @@
+{
+    "SKILL_NAME": "the Dabble Lab audio player template",
+    "ABOUT": [
+        "This is an audio streaming skill that was built with a free template from dabblelab.com. To continue listening say: resume, or say: stop to stop listening."
+    ],
+    "ABOUT_REPROMPT":[
+        "To continue listening say: resume, or say: stop to stop listening."
+    ],
+    "HELP": [
+        "This skill plays an audio stream when it is started. It does not have any additional functionality."
+    ],
+    "HELP_REPROMPT": [
+        "This skill plays an audio stream when it is started. It does not have any additional functionality."
+    ],
+    "FALLBACK": [
+        "Sorry, I didn't understand that. To start the stream say: play."
+    ],
+    "FALLBACK_REPROMPT": [
+        "Sorry, I didn't understand that. To start the stream say: play."
+    ],
+    "UNHANDLED":[
+        "This feature isn't supported yet.",
+        "Sorry, we currently do not support this feature."
+    ],
+    "DEVICE_NOT_SUPPORTED" : "Sorry, this skill is not supported on this device",
+    "ERROR": "Sorry, I wasn't able to handle your last request. Could you say that again?",
+    "ERROR_REPROMPT": "Could you say that again?"
+}
