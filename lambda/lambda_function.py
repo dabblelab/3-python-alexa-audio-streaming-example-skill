@@ -89,17 +89,39 @@ class CheckAudioInterfaceHandler(AbstractRequestHandler):
             )
 
 # This handler starts the stream playback whenever a user invokes the skill or resumes playback.
-class PlayStreamIntentHandler(AbstractRequestHandler):
+class LaunchRequestHandler(AbstractRequestHandler):
     def can_handle(self,handler_input):
-        return (is_request_type("LaunchRequest")(handler_input)
-                or is_request_type("PlaybackController.PlayCommandIssued")(handler_input)
-                or is_intent_name("PlayStreamIntent")(handler_input)
+        return is_request_type("LaunchRequest")(handler_input)
+
+    def handle(self,handler_input):
+        stream = STREAMS[0]
+        return ( handler_input.response_builder
+                    .speak("Starting {}".format(stream["metadata"]["title"]))
+                    .add_directive(
+                        PlayDirective(
+                            play_behavior=PlayBehavior.REPLACE_ALL,
+                            audio_item=AudioItem(
+                                stream=Stream(
+                                    token=stream["token"],
+                                    url=stream["url"],
+                                    offset_in_milliseconds=0,
+                                    expected_previous_token=None),
+                                metadata=stream["metadata"]
+                            )
+                        )
+                    )
+                    .set_should_end_session(True)
+                    .response
+                )
+
+class ResumeStreamIntentHandler(AbstractRequestHandler):
+    def can_handle(self,handler_input):
+        return (is_request_type("PlaybackController.PlayCommandIssued")(handler_input)
                 or is_intent_name("AMAZON.ResumeIntent")(handler_input)
                 )
     def handle(self,handler_input):
         stream = STREAMS[0]
         return ( handler_input.response_builder
-                    .speak("Starting {}".format(stream["metadata"]["title"]))
                     .add_directive(
                         PlayDirective(
                             play_behavior=PlayBehavior.REPLACE_ALL,
@@ -345,11 +367,12 @@ class CatchAllExceptionHandler(AbstractExceptionHandler):
 
 sb = SkillBuilder()
 sb.add_request_handler(CheckAudioInterfaceHandler())
-sb.add_request_handler(PlayStreamIntentHandler())
+sb.add_request_handler(LaunchRequestHandler())
+sb.add_request_handler(ResumeStreamIntentHandler())
 sb.add_request_handler(UnhandledFeaturesIntentHandler())
-sb.add_request_handler(AboutIntentHandler())
 sb.add_request_handler(CancelOrStopIntentHandler())
 sb.add_request_handler(HelpIntentHandler())
+sb.add_request_handler(AboutIntentHandler())
 sb.add_request_handler(FallbackIntentHandler())
 sb.add_request_handler(PlaybackStartedIntentHandler())
 sb.add_request_handler(PlaybackStoppedIntentHandler())

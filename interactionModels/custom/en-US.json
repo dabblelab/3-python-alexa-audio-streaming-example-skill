@@ -8,24 +8,6 @@
           "samples": []
         },
         {
-          "name": "PlayStreamIntent",
-          "slots": [],
-          "samples": [
-            "to play",
-            "to start playing",
-            "to begin playing"
-          ]
-        },
-        {
-          "name": "AboutIntent",
-          "slots": [],
-          "samples": [
-            "about",
-            "what is this",
-            "tell me about this"
-          ]
-        },
-        {
           "name": "AMAZON.PauseIntent",
           "samples": []
         },
@@ -84,6 +66,15 @@
         {
           "name": "AMAZON.FallbackIntent",
           "samples": []
+        },
+        {
+          "name": "AboutIntent",
+          "slots": [],
+          "samples": [
+            "about",
+            "what is this",
+            "tell me about this"
+          ]
         }
       ],
       "types": [],
@@ -94,5 +85,5 @@
       }
     }
   },
-  "version": "5"
+  "version": "4"
 }
