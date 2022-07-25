@@ -1,7 +1,7 @@
 {
-    "SKILL_NAME": "the Dabble Lab audio player template",
+    "SKILL_NAME": "Camino Estereo",
     "ABOUT": [
-        "This is an audio streaming skill that was built with a free template from dabblelab.com. To continue listening say: resume, or say: stop to stop listening."
+        "This is a christian radio station also available in caminoestereo.com. To continue listening say: resume, or say: stop to stop listening."
     ],
     "ABOUT_REPROMPT":[
         "To continue listening say: resume, or say: stop to stop listening."

@@ -2,88 +2,148 @@
   "manifest": {
     "publishingInformation": {
       "locales": {
-        "en-US": {
-          "summary": "Sample Short Description",
+        "es-ES": {
+          "summary": "Radio cristiana ",
           "examplePhrases": [
-            "Alexa open template three",
-            "Alexa start template three",
-            "Alexa launch template three"
+            "alexa abre CaminoEstereo",
+            "alexa empieza CaminoEstereo"
           ],
           "keywords": [
-            "keyword1",
-            "keyword2",
-            "keyword3"
+            "radio",
+            "Radio cristiana",
+            "Jesús",
+            "Dios",
+            "Camino Estereo",
+            "Iglesia Cristiana",
+            "Los del camino"
           ],
-          "name": "Template Three - Radio Streaming Skill Example",
-          "description": "Sample Full Description",
+          "name": "Camino Estereo - Radio cristiana sana doctrina",
+          "description": "Radio de sana doctrina en español. Transmisión 24/7 en vivo desde Santander, España",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "es-MX": {
+          "summary": "Radio cristiana ",
+          "examplePhrases": [
+            "alexa abre CaminoEstereo",
+            "alexa empieza CaminoEstereo"
+          ],
+          "keywords": [
+            "radio",
+            "Radio cristiana",
+            "Jesús",
+            "Dios",
+            "Camino Estereo",
+            "Iglesia Cristiana",
+            "Los del camino"
+          ],
+          "name": "Camino Estereo - Radio cristiana sana doctrina",
+          "description": "Radio de sana doctrina en español. Transmisión 24/7 en vivo desde Santander, España",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "es-US": {
+          "summary": "Radio cristiana ",
+          "examplePhrases": [
+            "alexa abre CaminoEstereo",
+            "alexa empieza CaminoEstereo"
+          ],
+          "keywords": [
+            "radio",
+            "Radio cristiana",
+            "Jesús",
+            "Dios",
+            "Camino Estereo",
+            "Iglesia Cristiana",
+            "Los del camino"
+          ],
+          "name": "Camino Estereo - Radio cristiana sana doctrina",
+          "description": "Radio de sana doctrina en español. Transmisión 24/7 en vivo desde Santander, España",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-US": {
+          "summary": "Christian Radio",
+          "examplePhrases": [
+            "Alexa open Camino estereo",
+            "Alexa start Camino estereo",
+            "Alexa launch Camino estereo"
+          ],
+          "keywords": [
+            "Radio",
+            "Christian Radio",
+            "Jesus"
+          ],
+          "name": "Camino Estereo - Sane Doctrine Radio",
+          "description": "Sane Doctrine Radio in spanish. BroadCasting 24/7 live from Santander, Spain",
           "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
           "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
         },
         "en-CA": {
-          "summary": "Sample Short Description",
+          "summary": "Christian Radio",
           "examplePhrases": [
-            "Alexa open template three",
-            "Alexa start template three",
-            "Alexa launch template three"
+            "Alexa open Camino estereo",
+            "Alexa start Camino estereo",
+            "Alexa launch Camino estereo"
           ],
           "keywords": [
-            "keyword1",
-            "keyword2",
-            "keyword3"
+            "Radio",
+            "Christian Radio",
+            "Jesus"
           ],
-          "name": "Template Three - Radio Streaming Skill Example",
-          "description": "Sample Full Description",
+          "name": "Camino Estereo - Sane Doctrine Radio",
+          "description": "Sane Doctrine Radio in spanish. BroadCasting 24/7 live from Santander, Spain",
           "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
           "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
         },
         "en-IN": {
-          "summary": "Sample Short Description",
+          "summary": "Christian Radio",
           "examplePhrases": [
-            "Alexa open template three",
-            "Alexa start template three",
-            "Alexa launch template three"
+            "Alexa open Camino estereo",
+            "Alexa start Camino estereo",
+            "Alexa launch Camino estereo"
           ],
           "keywords": [
-            "keyword1",
-            "keyword2",
-            "keyword3"
+            "Radio",
+            "Christian Radio",
+            "Jesus"
           ],
-          "name": "Template Three - Radio Streaming Skill Example",
-          "description": "Sample Full Description",
+          "name": "Camino Estereo - Sane Doctrine Radio",
+          "description": "Sane Doctrine Radio in spanish. BroadCasting 24/7 live from Santander, Spain",
           "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
           "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
         },
         "en-AU": {
-          "summary": "Sample Short Description",
+          "summary": "Christian Radio",
           "examplePhrases": [
-            "Alexa open template three",
-            "Alexa start template three",
-            "Alexa launch template three"
+            "Alexa open Camino estereo",
+            "Alexa start Camino estereo",
+            "Alexa launch Camino estereo"
           ],
           "keywords": [
-            "keyword1",
-            "keyword2",
-            "keyword3"
+            "Radio",
+            "Christian Radio",
+            "Jesus"
           ],
-          "name": "Template Three - Radio Streaming Skill Example",
-          "description": "Sample Full Description",
+          "name": "Camino Estereo - Sane Doctrine Radio",
+          "description": "Sane Doctrine Radio in spanish. BroadCasting 24/7 live from Santander, Spain",
           "smallIconUri": "file://assets/images/en-AU_smallIconUri.png",
           "largeIconUri": "file://assets/images/en-AU_largeIconUri.png"
         },
         "en-GB": {
-          "summary": "Sample Short Description",
+          "summary": "Christian Radio",
           "examplePhrases": [
-            "Alexa open template three",
-            "Alexa start template three",
-            "Alexa launch template three"
+            "Alexa open Camino estereo",
+            "Alexa start Camino estereo",
+            "Alexa launch Camino estereo"
           ],
           "keywords": [
-            "keyword1",
-            "keyword2",
-            "keyword3"
+            "Radio",
+            "Christian Radio",
+            "Jesus"
           ],
-          "name": "Template Three - Radio Streaming Skill Example",
-          "description": "Sample Full Description",
+          "name": "Camino Estereo - Sane Doctrine Radio",
+          "description": "Sane Doctrine Radio in spanish. BroadCasting 24/7 live from Santander, Spain",
           "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
           "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
         }
@@ -129,6 +189,18 @@
     "privacyAndCompliance": {
       "allowsPurchases": false,
       "locales": {
+        "es-ES": {
+          "termsOfUseUrl": "http://dabblelab.com/terms",
+          "privacyPolicyUrl": "http://dabblelab.com/privacy"
+        },
+        "es-MX": {
+          "termsOfUseUrl": "http://dabblelab.com/terms",
+          "privacyPolicyUrl": "http://dabblelab.com/privacy"
+        },
+        "es-US": {
+          "termsOfUseUrl": "http://dabblelab.com/terms",
+          "privacyPolicyUrl": "http://dabblelab.com/privacy"
+        },
         "en-US": {
           "termsOfUseUrl": "http://dabblelab.com/terms",
           "privacyPolicyUrl": "http://dabblelab.com/privacy"

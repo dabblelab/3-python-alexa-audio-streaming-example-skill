@@ -58,9 +58,9 @@
         {
           "name": "AMAZON.HelpIntent",
           "samples": [
-            "help me",
-            "how does this work",
-            "what should i do"
+            "ayuda",
+            "como funciona esto",
+            "que debo hacer"
           ]
         },
         {
@@ -71,9 +71,9 @@
           "name": "AboutIntent",
           "slots": [],
           "samples": [
-            "about",
-            "what is this",
-            "tell me about this"
+            "explicame esto",
+            "que es esto",
+            "hablame sobre esto"
           ]
         }
       ],
@@ -85,5 +85,5 @@
       }
     }
   },
-  "version": "1"
+  "version": "2"
 }

@@ -1,0 +1,28 @@
+{
+    "SKILL_NAME": "Camino Estereo",
+    "ABOUT": [
+        "Esta es una estación de radio cristiana también disponible en Caminoesteo.com. Para continuar escuchando: Reanudar. Puedes decir: Detente, para dejar de escuchar."
+    ],
+    "ABOUT_REPROMPT":[
+        "Para continuar escuchando: reanudar o diga: deja de dejar de escuchar."
+    ],
+    "HELP": [
+        "Esta Skill reproduce una transmisión de audio cuando se inicia. No tiene ninguna funcionalidad adicional."
+    ],
+    "HELP_REPROMPT": [
+        "Esta habilidad reproduce una transmisión de audio cuando se inicia. No tiene ninguna funcionalidad adicional."
+    ],
+    "FALLBACK": [
+        "Lo siento, no entendí eso. Para comenzar la transmisión, di: Reproducir."
+    ],
+    "FALLBACK_REPROMPT": [
+        "Lo siento, no entendí eso. Para comenzar la transmisión, digamos: Reproducir."
+    ],
+    "UNHANDLED":[
+        "Esta característica aún no es compatible.",
+        "Lo siento, actualmente no admitimos esta característica."
+    ],
+    "DEVICE_NOT_SUPPORTED" : "Lo siento, esta Skill no es compatible con este dispositivo",
+    "ERROR": "Lo siento, no pude manejar su última solicitud. ¿Podrías repetir lo que dijiste?",
+    "ERROR_REPROMPT": "¿Podrías repetir lo que dijiste?"
+}

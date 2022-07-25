@@ -40,8 +40,8 @@ STREAMS = [
     "token": '1',
     "url": 'https://www.radiokrishna.com/RKC-Terni-HQ.m3u',
     "metadata": {
-      "title": 'Dabble Radio',
-      "subtitle": 'A subtitle for dabble radio',
+      "title": 'Camino estereo',
+      "subtitle": 'A subtitle for Camino estereo',
       "art": {
         "sources": [
           {
